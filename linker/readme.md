@@ -6,7 +6,7 @@ do fill in the next bytes of m.
 
 # linker
 ## Elf section header table
-![](https://upload.wikimedia.org/wikipedia/commons/7/77/Elf-layout--en.svg)\
+![](https://upload.wikimedia.org/wikipedia/commons/7/77/Elf-layout--en.svg)
 ## Linker tutorial
 https://home.cs.colorado.edu/~main/cs1300/doc/gnu/ld_3.html
 ## Linker warnings
