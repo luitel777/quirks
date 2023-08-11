@@ -20,6 +20,7 @@ int main(){
         something = dlsym(handle, "print_something");
         if((error = dlerror()) != NULL){
                 printf("%s\n", error);
+                return 0;
         }
         something();
 
