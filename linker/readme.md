@@ -1,8 +1,7 @@
 Stdlib expects an entry point to its prefdefined location _start but my linker says the entry
 point is _pheww and stdlib goes bonkers. And since I did not find any way to use syscall
 defined in <asm/unistd.h> in a C abstraction I had to use assembly. I don't know how
-asm("%0" : "where is docs"(nowhere)) works so I couldn't find a neater way except to
-do fill in the next bytes of m.
+asm("%0" : "where is docs"(nowhere)) works so I couldn't find a neater way to do.
 
 # linker
 ## Elf section header table
